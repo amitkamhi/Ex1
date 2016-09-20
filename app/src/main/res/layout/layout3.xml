@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro3"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="65dp"
+        android:background="@android:color/holo_orange_light">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:text="@string/c1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_span="2"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c2"
+                android:id="@+id/textView6"
+                android:layout_span="2"
+                style="@style/myStyle"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c3"
+                android:id="@+id/textView4"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c4"
+                android:id="@+id/textView7"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c5"
+                android:id="@+id/textView8"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c6"
+                android:id="@+id/textView9"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c7"
+                android:id="@+id/textView5"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c8"
+                android:id="@+id/textView10"
+                android:layout_gravity="center"
+                android:layout_span="1"
+                style="@style/myStyle"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/c9"
+                android:id="@+id/textView11"
+                android:layout_span="2"
+                style="@style/myStyle"/>
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

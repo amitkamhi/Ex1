@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ex1</string>
+    <string name="intro">This activity demonstrates the use of Relative Layout with two internal Linear layouts</string>
+    <string name="name">Your Name:</string>
+    <string name="buttom">Press me!</string>
+    <string name="cb1">Option1</string>
+    <string name="cb2">Option2</string>
+    <string name="cb3">Option3</string>
+    <string name="rb1">Alternative1</string>
+    <string name="rb2">Alternative2</string>
+    <string name="intro2">This activity demonstrates the use of Grid Layout with embedded image views</string>
+    <string name="intro3">This Activity demonstrates the use of the Table Layout with spanning columns</string>
+    <string name="c1">Cell1</string>
+    <string name="c2">Cell2</string>
+    <string name="c3">Cell3</string>
+    <string name="c4">Cell4</string>
+    <string name="c5">Cell5</string>
+    <string name="c6">Cell6</string>
+    <string name="c7">Cell7</string>
+    <string name="c8">Cell8</string>
+    <string name="c9">Cell9</string>
+    <string name="clock">My Clock</string>
+    <string name="intro4">This activity demonstrates the use of Frame Layout with multiple views on top of each other</string>
+
+</resources>
