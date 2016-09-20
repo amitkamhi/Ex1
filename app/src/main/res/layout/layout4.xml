@@ -41,7 +41,7 @@
         <View
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@android:color/white"
+            android:background="@drawable/border4"
             android:layout_gravity="center" />
     </FrameLayout>
 
