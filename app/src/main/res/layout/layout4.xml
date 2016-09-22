@@ -39,7 +39,7 @@
             android:layout_marginLeft="15dp"/>
 
         <View
-            android:layout_width="50dp"
+            android:layout_width="70dp"
             android:layout_height="50dp"
             android:background="@drawable/border4"
             android:layout_gravity="center" />

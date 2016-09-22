@@ -2,7 +2,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
     <corners
-        android:radius="@android:dimen/app_icon_size">
+        android:radius="8dp">
 
     </corners>
 
